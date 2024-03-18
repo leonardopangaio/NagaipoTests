@@ -13,3 +13,6 @@ mindmap
         teste2
         teste3
 ```
+
+git remote set-url --add --push origin git@github.com:leonardopangaio/NagaipoTests.git
+git remote set-url --add --push origin git@github.com:leonardopangaio/NagaipoTestsDR.git
