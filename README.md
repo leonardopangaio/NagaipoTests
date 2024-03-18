@@ -18,3 +18,8 @@ git remote set-url --add --push origin git@github.com:leonardopangaio/NagaipoTes
 git remote set-url --add --push origin git@github.com:leonardopangaio/NagaipoTestsDR.git
 
 ![alt text](image.png)
+
+git push -f origin main
+
+Referência
+https://stackoverflow.com/questions/14290113/git-pushing-code-to-two-remotes
