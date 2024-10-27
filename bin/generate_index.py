@@ -1,9 +1,11 @@
 import os
 import re
 
-# Caminhos do repositório
-docs_dir: str = "../docs"
-readme_path: str = "../README.md"
+# Caminhos do repositório usando o diretório do script atual como referência
+base_dir: str = os.path.dirname(os.path.abspath(__file__))  # Diretório do script
+docs_dir: str = os.path.join(base_dir, "../docs")  # Caminho absoluto para a pasta docs
+readme_path: str = os.path.join(base_dir, "../README.md")  # Caminho absoluto para o README.md
+
 
 def get_markdown_title(file_path: str) -> str | None:
     print(f'Getting markdown title from {file_path}...')
