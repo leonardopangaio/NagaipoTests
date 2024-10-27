@@ -29,11 +29,10 @@ jobs:
           python3 bin/generate_index.py  
           
       # 6. Commit e push, se houver mudanças
-      - name: Commit and push changes
+      - name: Push changes to GitHub
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Atualização automática do índice no README.md" || echo "Nenhuma mudança para commit"
-          git push
-        # O operador `|| echo "Nenhuma mudança para commit"` evita erros caso não haja alterações
+          git push "https://${{ secrets.GH_TOKEN }}@github.com/leonardopangaio/NagaipoTests.git"

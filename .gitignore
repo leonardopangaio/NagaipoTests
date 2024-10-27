@@ -5,3 +5,4 @@ data/
 
 # files to ignore
 *.log
+.env
