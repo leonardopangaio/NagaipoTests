@@ -1,0 +1,7 @@
+# folders to ignore
+venv/
+logs/
+data/
+
+# files to ignore
+*.log
