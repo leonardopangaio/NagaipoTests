@@ -1,0 +1,39 @@
+name: Update README Index
+
+# 1. Definindo o evento
+on:
+  push:
+    paths:
+      - "docs/**/*.md"  # Só roda o workflow se algum .md for alterado na pasta docs
+  workflow_dispatch:  # Permite rodar manualmente, se desejar
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest  # 2. Especifica o SO que será usado (no caso, Ubuntu)
+
+    steps:
+      # 3. Baixando o repositório
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      # 4. Configurando o Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'  # Usa a versão mais recente do Python 3
+
+      # 5. Executando o script de índice
+      - name: Run index generation script
+        # Executa o script que criamos
+        run: |
+          python3 bin/generate_index.py  
+          
+      # 6. Commit e push, se houver mudanças
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Atualização automática do índice no README.md" || echo "Nenhuma mudança para commit"
+          git push
+        # O operador `|| echo "Nenhuma mudança para commit"` evita erros caso não haja alterações

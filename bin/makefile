@@ -22,7 +22,7 @@ install_lib: venv requirements.txt ## Instalação das dependências
 		&& pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org --no-cache-dir -r requirements.txt
 
 run_python: venv ## Testa execução do script Python
-	@source venv/bin/activate && python3 main.py
+	@source venv/bin/activate && python3 generate_index.py
 
 requirements.txt: venv ## Gera o arquivo requirements.txt com as dependências
 	@if [ ! -f requirements.txt ]; then \
