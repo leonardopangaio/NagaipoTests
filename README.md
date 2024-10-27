@@ -4,6 +4,7 @@ Este repositório visa a ser um glossário de ambiente corporativo e tecnológic
 
 ## Índice
 
+- [Ansible](docs/Ansible.md)
 - [BASH](docs/bash.md)
 - [DMZ](docs/dmz.md)
 - [DNS](docs/DNS.MD)
