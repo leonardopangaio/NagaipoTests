@@ -26,7 +26,7 @@ jobs:
       - name: Run index generation script
         # Executa o script que criamos
         run: |
-          python3 bin/generate_index.py  
+          python3 bin/generate_glossary.py  
           
       # 6. Commit e push, se houver mudanças
       - name: Configure git for pushing
