@@ -1,5 +1,4 @@
 # Teste de Glóssário
-<body style="background-color:lightgray;">
 
 Teste de cabeçalho e/ou descrição do documento.
 
