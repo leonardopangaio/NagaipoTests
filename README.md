@@ -2,13 +2,13 @@
 
 Teste de cabeçalho e/ou descrição do documento.
 
-[.](https://img.shields.io/github/forks/leonardopangaio/NagaipoTests.svg)
+[[!Forks](https://img.shields.io/github/forks/leonardopangaio/NagaipoTests.svg)]()
 
-(https://img.shields.io/github/stars/leonardopangaio/NagaipoTests.svg)
+[[!Stats](https://img.shields.io/github/stars/leonardopangaio/NagaipoTests.svg)]()
 
-[https://img.shields.io/github/watchers/leonardopangaio/NagaipoTests.svg](https://img.shields.io/github/watchers/leonardopangaio/NagaipoTests.svg)
+[[!Watchers](https://img.shields.io/github/watchers/leonardopangaio/NagaipoTests.svg)]()
 
-[](https://img.shields.io/github/followers/leonardopangaio.svg?style=social&label=Follow&maxAge=2592000)
+[[!Followers](https://img.shields.io/github/followers/leonardopangaio.svg?style=social&label=Follow&maxAge=2592000)]()
 
 <!-- início glossário -->
 
