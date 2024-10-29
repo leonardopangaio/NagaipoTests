@@ -68,4 +68,5 @@ Nam vestibulum vel massa vitae luctus. Donec eu vehicula eros. Vestibulum ante i
 - [Referência 2](link 2)
 - [Referência 3](link 3)
 
+
 <!-- término glossário -->
