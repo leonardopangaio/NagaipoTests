@@ -1,40 +1,55 @@
 name: Update README Index
 
-# 1. Definindo o evento
 on:
   push:
+    branches:
+      - main
     paths:
-      - "docs/**/*.md"  # Só roda o workflow se algum .md for alterado na pasta docs
+      - "**/docs/**/*.md"  # Qualquer mudança em .md na pasta docs
   workflow_dispatch:  # Permite rodar manualmente, se desejar
 
 jobs:
   update-readme:
-    runs-on: ubuntu-latest  # 2. Especifica o SO que será usado (no caso, Ubuntu)
+    runs-on: ubuntu-latest
 
     steps:
-      # 3. Baixando o repositório
+      # 1. Baixando o repositório com histórico completo
       - name: Check out repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Traz o histórico completo para detecção de mudanças
 
-      # 4. Configurando o Python
+      # 2. Verificar se há mudanças em arquivos .md
+      - name: Verificar alterações em arquivos .md
+        run: |
+          git diff --name-only HEAD^ HEAD | grep -E '^docs/.*\.md$' || echo "Nenhuma alteração relevante detectada."
+
+      # 3. Configurando o Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  # Usa a versão mais recente do Python 3
+          python-version: '3.x'
 
-      # 5. Executando o script de índice
-      - name: Run index generation script
-        # Executa o script que criamos
+      # 4. Executando o script de índice
+      - name: Run glossary generation script
         run: |
           python3 bin/generate_glossary.py  
-          
-      # 6. Commit e push, se houver mudanças
+
+      # 5. Preparando para commit e push
       - name: Configure git for pushing
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://${{ secrets.GH_TOKEN }}@github.com/leonardopangaio/NagaipoTests.git"
           git add README.md
+
+      # 6. Verificar arquivos adicionados (debug)
+      - name: Listar arquivos preparados para commit
+        run: |
+          git status
+
+      # 7. Commit e push, se houver mudanças
+      - name: Commit and push changes
+        run: |
           git commit -m "Atualização automática do índice no README.md" || echo "Nenhuma mudança para commit"
           git push origin HEAD:main
-
