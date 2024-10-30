@@ -122,6 +122,8 @@ Sistema->>Notificacao: Notificar Resultado
 Notificacao-->>Usuario: Enviar E-mail com Resultado
 :::
 
+![Mermaid Example](/docs/attachments/mermaid_example.png)
+
 ---
 ## MTR
 
