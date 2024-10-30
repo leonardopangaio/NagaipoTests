@@ -148,3 +148,7 @@ Nam vestibulum vel massa vitae luctus. Donec eu vehicula eros. Vestibulum ante i
 [1]: https://www.linkedin.com/in/leonardo-pangaio/
 
 <!-- término glossário -->
+
+## Referência:
+
+- [Glossário Lucio](https://rlucio01.notion.site/Gloss-rio-Corporativo-9688bde8db034960a1d8938d27565a87)
