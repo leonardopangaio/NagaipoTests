@@ -48,7 +48,7 @@ Nam vestibulum vel massa vitae luctus. Donec eu vehicula eros. Vestibulum ante i
 
 ---
 ## Domain Named Service (DNS)
-Autor: [Leonardo Pangaio][1] - Data Publicação: 28/10/2024
+Autor: [Leonardo Pangaio][1] - Data Publicação: 28/10/2024 -
 Revisor: XXXXXXXX - Data Revisão: XX/XX/XXXX
 
 ### Descrição
@@ -66,7 +66,7 @@ Nam vestibulum vel massa vitae luctus. Donec eu vehicula eros. Vestibulum ante i
 ---
 ## IPERF
 
-Autor: Leonardo Pangaio - Data Publicação: 28/10/2024 -
+Autor: [Leonardo Pangaio][1] - Data Publicação: 28/10/2024 -
 Revisor: XXXXXXXX - Data Revisão: XX/XX/XXXX
 
 ### Descrição
@@ -78,6 +78,8 @@ Nam vestibulum vel massa vitae luctus. Donec eu vehicula eros. Vestibulum ante i
 - [Referência 1](link 1)
 - [Referência 2](link 2)
 - [Referência 3](link 3)
+
+[1]: https://www.linkedin.com/in/leonardo-pangaio/
 
 ---
 ## MTR
