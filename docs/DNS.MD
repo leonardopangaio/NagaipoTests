@@ -1,5 +1,5 @@
 # Domain Named Service (DNS)
-Autor: [Leonardo Pangaio][1] - Data Publicação: 28/10/2024
+Autor: [Leonardo Pangaio][1] - Data Publicação: 28/10/2024 - 
 Revisor: XXXXXXXX - Data Revisão: XX/XX/XXXX
 
 ## Descrição
