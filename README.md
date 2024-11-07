@@ -15,7 +15,7 @@ A proposta é que este material sirva como uma referência prática para inician
 
 <!-- término glossário -->
 
-## Referência:
+## Referências Gerais
 
 - [Glossário Lucio](https://rlucio01.notion.site/Gloss-rio-Corporativo-9688bde8db034960a1d8938d27565a87)
 
