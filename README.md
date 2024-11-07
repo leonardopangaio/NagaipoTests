@@ -14,7 +14,7 @@ A proposta é que este material sirva como uma referência prática para inician
 ---
 ## Secure Shell (SSH)
 
-Autor: [Leonardo Pangaio](1) - Data: 2024-11-06
+Autor: [Leonardo Pangaio][1] - Data: 2024-11-06
 
 ### Descrição
 
@@ -28,7 +28,7 @@ SSH (Secure Shell) é um protocolo de rede amplamente utilizado em ambientes Lin
 ---
 ## Secure Sockets Layer (SSL)
 
-Autor: [Leonardo Pangaio](1) - Data: 2024-11-06
+Autor: [Leonardo Pangaio][1] - Data: 2024-11-06
 
 ### Descrição
 
@@ -43,7 +43,7 @@ SSL (Secure Sockets Layer) é um protocolo de segurança criado para proteger a 
 ---
 ## Transport Layer Security (TLS)
 
-Autor: [Leonardo Pangaio](1) - Data: 2024-11-06
+Autor: [Leonardo Pangaio][1] - Data: 2024-11-06
 
 ### Descrição
 
