@@ -1,12 +1,12 @@
 Glossário prático: 
 
 - [ ] Tty
-- [ ] ssl
-- [ ] ssh
-- [ ] tls
+- [X] ssl
+- [X] ssh
+- [X] tls
 - [ ] ttl
 - [ ] protocolos
-- [ ] modelo osi
+- [X] modelo osi
 - [ ] jitter
 - [ ] latência
 - [ ] taxa de transferência
@@ -36,7 +36,7 @@ Glossário prático:
 - [ ] ifconfig
 - [ ] pacotes dropados
 - [ ] retransmissão
-- [ ] icmp
+- [X] icmp
 - [ ] nmap
 - [ ] nc
 - [ ] porta
@@ -64,10 +64,10 @@ Glossário prático:
 - [ ] MiB
 - [ ] bandwidth
 - [ ] largura de banda
-- [ ] tcp
-- [ ] udp
-- [ ] http
-- [ ] https
+- [X] tcp
+- [X] udp
+- [X] http
+- [X] https
 - [ ] bits
 - [ ] bytes
 - [ ] vmware
