@@ -11,7 +11,50 @@ A proposta é que este material sirva como uma referência prática para inician
 
 <!-- início glossário -->
 
+---
+## Secure Shell (SSH)
 
+Autor: [Leonardo Pangaio](1) - Data: 2024-11-06
+
+### Descrição
+
+SSH (Secure Shell) é um protocolo de rede amplamente utilizado em ambientes Linux e macOS para acesso remoto seguro a servidores e dispositivos. Ele permite a execução de comandos e a transferência de arquivos com segurança, protegendo os dados por meio de criptografia. O SSH opera, por padrão, na porta 22 e oferece diferentes métodos de autenticação, incluindo o uso de credenciais (usuário e senha) e chaves criptográficas, que fornecem uma camada adicional de segurança. Em ambientes corporativos e de desenvolvimento, o SSH substitui protocolos mais vulneráveis, como Telnet, garantindo a privacidade e a integridade das operações remotas.
+
+### Referências
+
+- [CloudFlare about SSH](https://www.cloudflare.com/pt-br/learning/access-management/what-is-ssh/)
+- [Wikipedia about SSH](https://pt.wikipedia.org/wiki/Secure_Shell)
+
+---
+## Secure Sockets Layer (SSL)
+
+Autor: [Leonardo Pangaio](1) - Data: 2024-11-06
+
+### Descrição
+
+SSL (Secure Sockets Layer) é um protocolo de segurança criado para proteger a comunicação entre servidores e clientes na internet, garantindo que os dados transmitidos permaneçam privados e protegidos contra interceptações. Ele utiliza criptografia para codificar os dados durante a transmissão, assegurando que apenas o servidor e o cliente possam entender o conteúdo. O SSL passou por diversas atualizações para melhorar a segurança, até que foi gradualmente substituído pelo TLS, devido a vulnerabilidades encontradas nas versões anteriores. Mesmo assim, o termo “SSL” ainda é amplamente usado para se referir às camadas de segurança na web.
+
+### Referências
+
+- [Amazon AWS About SSL Certificate](https://aws.amazon.com/pt/what-is/ssl-certificate/)
+- [CloudFlare About SSL Certificate](https://www.cloudflare.com/pt-br/learning/ssl/what-is-ssl/)
+- [Wikipedia About SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+
+---
+## Transport Layer Security (TLS)
+
+Autor: [Leonardo Pangaio](1) - Data: 2024-11-06
+
+### Descrição
+
+TLS (Transport Layer Security) é a evolução do SSL e o protocolo atualmente recomendado para proteger a transmissão de dados pela internet. Ele oferece melhorias em termos de velocidade e segurança em comparação com o SSL, usando criptografia avançada para garantir a privacidade e a integridade dos dados trocados. TLS é amplamente utilizado em sites, emails e outros serviços online que exigem confidencialidade. Uma das características fundamentais do TLS é a autenticação mútua, que permite confirmar a identidade tanto do cliente quanto do servidor, sendo essencial para uma comunicação segura.
+
+### Referências
+
+- [Wikipedia about TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+- [Wikipedia about TLS (pt-br)](https://pt.wikipedia.org/wiki/Transport_Layer_Security)
+- [CloudFlare about TLS](https://www.cloudflare.com/pt-br/learning/ssl/transport-layer-security-tls/)
+- [Amazon AWS about the difference between SSL and TLS](https://aws.amazon.com/pt/compare/the-difference-between-ssl-and-tls/)
 
 <!-- término glossário -->
 
