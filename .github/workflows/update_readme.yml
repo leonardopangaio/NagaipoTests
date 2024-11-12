@@ -44,7 +44,7 @@ jobs:
 
       - name: Set date and time on readme.md
         run: |
-          sed -i "s|Artigo atualizado em: .*|Artigo atualizado em: ${COMMIT_DATE}|" README.md
+          sed -i "s|Artigo atualizado em: .*|Artigo atualizado em: ${datetime}|" README.md
 
       # 5. Preparando para commit e push
       - name: Configure git for pushing
