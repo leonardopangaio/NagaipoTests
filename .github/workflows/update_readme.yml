@@ -35,6 +35,14 @@ jobs:
         run: |
           python3 bin/generate_glossary.py  
 
+      # Seta uma variável com data e hora
+      - name: Set date and time
+        id: datetime
+        run: echo "datetime=$(date)" >> $GITHUB_ENV
+
+      - name: Set date and time on readme.md
+        run: sed -i "s/{datetime}/${{ env.datetime }}/g" README.md
+
       # 5. Preparando para commit e push
       - name: Configure git for pushing
         run: |
