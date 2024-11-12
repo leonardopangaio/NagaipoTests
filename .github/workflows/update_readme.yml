@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "docs/*.md"  # Qualquer mudança em .md na pasta docs
+    # paths:
+    #   - "docs/*.md"  # Qualquer mudança em .md na pasta docs
   workflow_dispatch:  # Permite rodar manualmente, se desejar
 
 jobs:
@@ -38,7 +38,9 @@ jobs:
       # Seta uma variável com data e hora
       - name: Set date and time
         id: datetime
-        run: echo "datetime=$(date)" >> $GITHUB_ENV
+        run: |
+          export TZ=America/Sao_Paulo
+          echo "datetime=$(date)" >> $GITHUB_ENV
 
       - name: Set date and time on readme.md
         run: sed -i "s/{datetime}/${{ env.datetime }}/g" README.md
