@@ -40,7 +40,7 @@ jobs:
         id: datetime
         run: |
           export TZ=America/Sao_Paulo
-          datetime=$(date "+%Y-%m-%d %H:%M:%S" %z)
+          datetime=$(date "+%Y-%m-%d %H:%M:%S %Z %z")
           echo "$datetime" >> $GITHUB_ENV
 
       - name: Set date and time on readme.md
