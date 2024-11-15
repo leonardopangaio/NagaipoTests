@@ -11,7 +11,7 @@ Vale ressaltar que os conceitos aqui abordados, foram pesquisados pelos autores,
 ![Watchers](https://img.shields.io/github/watchers/leonardopangaio/NagaipoTests.svg) - 
 ![Followers](https://img.shields.io/github/followers/leonardopangaio.svg?style=social&label=Follow&maxAge=2592000)
 
-Artigo atualizado em: Tue Nov 12 08:59:14 -03 2024
+Artigo atualizado em: 2024-11-15 01:00:18 -0300
 
 correcao
 <!-- início glossário -->
