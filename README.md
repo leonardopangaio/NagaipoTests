@@ -13,6 +13,7 @@ Vale ressaltar que os conceitos aqui abordados, foram pesquisados pelos autores,
 
 Artigo atualizado em: Tue Nov 12 08:59:14 -03 2024
 
+correcao
 <!-- início glossário -->
 
 ---
